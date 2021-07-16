@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="mobile-automation-appium-project">
+	<parameter name="os" value="${os}" />
+
+
+	<test name="automation-tests">
+		<classes>
+			<class name="cucumberIntegrationTests.CucumberRunnerUtil" />
+		</classes>
+	</test>
+</suite>
