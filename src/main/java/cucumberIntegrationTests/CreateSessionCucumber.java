@@ -30,10 +30,8 @@ public class CreateSessionCucumber {
 
 	public WebDriver driver = null;
 	Properties configFile ;
-	protected static Properties lobConfigProp = new Properties();
-	public static Properties localeConfigProp = new Properties();
-	protected FileInputStream configFis, lobConfigFis, localeConfigFis;	
-	public Properties testDataFile;
+	public static Properties configPlatform = new Properties();
+	protected FileInputStream configFis, configPlatformFis;
 	private final String CONFIG_FILE_PATH="//src//main//java//config//config.properties";
 	protected File file = new File("");
 	Properties configProp = new Properties();
@@ -267,15 +265,9 @@ public class CreateSessionCucumber {
 				+ "_config.properties");
 
 		if (f.exists() && !f.isDirectory()) {
-			lobConfigFis = new FileInputStream(file.getAbsoluteFile()
+			configPlatformFis = new FileInputStream(file.getAbsoluteFile()
 					+ "/src//main//java//config//" + platform + "_config.properties");
-			lobConfigProp.load(lobConfigFis);
-
-			String locale = lobConfigProp.getProperty("LOCALE");
-
-			localeConfigFis = new FileInputStream(file.getAbsoluteFile()
-					+ "//src//main//java//testData//" + locale + "_" + platform  + ".properties");
-			localeConfigProp.load(localeConfigFis);
+			configPlatform.load(configPlatformFis);
 		} 
 		else {
 			throw new Exception("Properties files loading failed ");
