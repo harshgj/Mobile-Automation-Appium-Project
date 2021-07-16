@@ -1,8 +1,8 @@
 package cucumberIntegrationTests.screens.android;
 
-import UITestFramework.GenericMethods;
 import cucumberIntegrationTests.CreateSessionCucumber;
 import cucumberIntegrationTests.screens.Base.LoginScreen;
+import logger.log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -31,13 +31,18 @@ public class AndroidLoginScreen extends LoginScreen {
 
 
 	@Override
-	public void launchApp() {
-		System.out.println("App is Launched");
+	public void clickSignInButton() {
+        androidLoginScreen.findElement(androidLoginScreen.signInButton).click();
 	}
 
 	@Override
 	public void enterCredentials() {
-		System.out.println("App is Launched");
+		
+        androidLoginScreen.waitForVisibility(androidLoginScreen.loginViaSlideShare);
+        androidLoginScreen.findElement(androidLoginScreen.loginViaSlideShare).click();
+        androidLoginScreen.waitForVisibility(androidLoginScreen.user);
+        androidLoginScreen.findElement(androidLoginScreen.user).sendKeys(userName);
+        androidLoginScreen.findElement(androidLoginScreen.pass).sendKeys(password);
 	}
 
 	@Override
