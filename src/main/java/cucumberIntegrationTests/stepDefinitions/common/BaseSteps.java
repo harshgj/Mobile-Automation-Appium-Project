@@ -12,8 +12,8 @@ public class BaseSteps {
     public String platform;
 
     @Parameters({"os"})
-    @Given("^User has slideshare \"([^\"]*)\" app$")
-    public void userHasSlideshareApp(String invokeDriver) throws Exception {
+    @Given("^User has slideshare app$")
+    public void userHasSlideshareApp() throws Exception {
 
         //Use this when running via testng
         // platform= Reporter.getCurrentTestResult().getTestContext().getCurrentXMLTest().getParameter("os");
@@ -21,7 +21,7 @@ public class BaseSteps {
         //Use this when running via junit
         platform = System.getProperty("platform");
         createSessionCucumber = new CreateSessionCucumber();
-        createSessionCucumber.createDriver(platform, BaseSteps.class.getDeclaredMethod("userHasSlideshareApp",String.class));
+        createSessionCucumber.createDriver(platform, BaseSteps.class.getDeclaredMethod("userHasSlideshareApp"));
         driver = createSessionCucumber.getWebDriver();
     }
 
