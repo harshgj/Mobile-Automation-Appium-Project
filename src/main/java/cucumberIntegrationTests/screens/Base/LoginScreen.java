@@ -12,5 +12,7 @@ public abstract class LoginScreen extends GenericMethods {
     public abstract void enterCredentials();
 
     public abstract void loadTestData(String credentialValidations);
+    
+    public abstract void clickSignInButton();
 
 }
