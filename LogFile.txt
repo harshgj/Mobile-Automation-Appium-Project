@@ -1,0 +1,14 @@
+26 Jul 2021 12:42:43  INFO logger - --------------------------------------
+26 Jul 2021 12:44:57  INFO logger - --------------------------------------
+26 Jul 2021 12:50:13  INFO logger - --------------------------------------
+26 Jul 2021 12:51:17  INFO logger - Android driver created
+26 Jul 2021 12:59:01  INFO logger - --------------------------------------
+26 Jul 2021 12:59:22  INFO logger - Android driver created
+26 Jul 2021 13:05:57  INFO logger - --------------------------------------
+26 Jul 2021 13:06:18  INFO logger - Android driver created
+26 Jul 2021 13:35:04  INFO logger - --------------------------------------
+26 Jul 2021 13:35:25  INFO logger - Android driver created
+26 Jul 2021 13:45:42  INFO logger - --------------------------------------
+26 Jul 2021 13:46:10  INFO logger - Android driver created
+26 Jul 2021 13:47:41  INFO logger - --------------------------------------
+26 Jul 2021 13:47:58  INFO logger - Android driver created

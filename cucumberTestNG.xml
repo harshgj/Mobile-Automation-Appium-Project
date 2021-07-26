@@ -5,7 +5,7 @@
 
 	<test name="automation-tests">
 		<classes>
-			<class name="cucumberIntegrationTests.CucumberRunnerUtil" />
+			<class name="CucumberRunnerUtil" />
 		</classes>
 	</test>
 </suite>

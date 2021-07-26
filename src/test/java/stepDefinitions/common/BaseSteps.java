@@ -1,4 +1,4 @@
-package cucumberIntegrationTests.stepDefinitions.common;
+package stepDefinitions.common;
 
 import io.cucumber.java.en.Given;
 import cucumberIntegrationTests.CreateSessionCucumber;

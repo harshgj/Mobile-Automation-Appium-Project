@@ -23,7 +23,7 @@ import java.util.Set;
 
 public class GenericMethods {
 
-    WebDriver driver = null;
+    public WebDriver driver = null;
 
     // common timeout for all tests can be set here
     public final int timeOut = 40;

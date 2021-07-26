@@ -90,7 +90,7 @@ public class CreateSessionCucumber {
 
 		propertiesFileLoad(os);
 
-		File propertiesFile = new File(file.getAbsoluteFile() + "//src//main//java//log4j.properties");
+		File propertiesFile = new File(file.getAbsoluteFile() + "//src//main//resources//log4j.properties");
 		PropertyConfigurator.configure(propertiesFile.toString());
 		Log.info("--------------------------------------");
 
