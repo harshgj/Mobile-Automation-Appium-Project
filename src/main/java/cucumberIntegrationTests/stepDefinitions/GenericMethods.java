@@ -1,35 +1,29 @@
-package cucumberIntegrationTests;
+package cucumberIntegrationTests.stepDefinitions;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileDriver;
 import io.appium.java_client.TouchAction;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.connection.ConnectionState;
-import io.appium.java_client.android.nativekey.AndroidKey;
-import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.ElementOption;
 import io.appium.java_client.touch.offset.PointOption;
 import logger.Log;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Set;
+import java.util.Properties;
 
 public class GenericMethods {
 
-    WebDriver driver = null;
+    public WebDriver driver = null;
 
-    // common timeout for all tests can be set here
-    public final int timeOut = 40;
+    public static Properties configFileObject;
 
     public GenericMethods(WebDriver driver) {
         this.driver = driver;
+        configFileObject = CreateSessionCucumber.configPlatform;
     }
 
     /**
@@ -47,58 +41,6 @@ public class GenericMethods {
     }
 
     /**
-     * method to hide keyboard
-     */
-    public void hideKeyboard() {
-        ((AppiumDriver) driver).hideKeyboard();
-    }
-
-    /**
-     * method to go back by Android Native back click
-     */
-    public void back() {
-        ((AndroidDriver) driver).pressKey(new KeyEvent().withKey(AndroidKey.BACK));
-    }
-
-    /**
-     * method to wait for an element to be visible
-     *
-     * @param targetElement element to be visible
-     * @return true if element is visible else throws TimeoutException
-     */
-    public boolean waitForVisibility(By targetElement) {
-        try {
-            WebDriverWait wait = new WebDriverWait(driver, timeOut);
-            wait.until(ExpectedConditions.visibilityOfElementLocated(targetElement));
-            return true;
-        } catch (TimeoutException e) {
-            System.out.println("Element is not visible: " + targetElement);
-            throw e;
-
-        }
-    }
-
-    /**
-     * method to wait for an element until it is invisible
-     *
-     * @param targetElement element to be invisible
-     * @return true if element gets invisible else throws TimeoutException
-     */
-    public boolean waitForInvisibility(By targetElement) {
-        try {
-            WebDriverWait wait = new WebDriverWait(driver, timeOut);
-            wait.until(ExpectedConditions.invisibilityOfElementLocated(targetElement));
-            return true;
-        } catch (TimeoutException e) {
-            System.out.println("Element is still visible: " + targetElement);
-            System.out.println();
-            System.out.println(e.getMessage());
-            throw e;
-
-        }
-    }
-
-    /**
      * method to tap on the screen on provided coordinates
      *
      * @param xPosition x coordinate to be tapped
@@ -111,7 +53,6 @@ public class GenericMethods {
         tapObject.put("startY", yPosition);
         js.executeScript("mobile: tap", tapObject);
     }
-
 
     /**
      * method to find an element
@@ -158,99 +99,6 @@ public class GenericMethods {
         } catch (NoAlertPresentException e) {
             throw e;
         }
-    }
-
-    /**
-     * method to verify if alert is present
-     *
-     * @return returns true if alert is present else false
-     */
-    public boolean isAlertPresent() {
-        try {
-            WebDriverWait wait = new WebDriverWait(driver, timeOut);
-            wait.until(ExpectedConditions.alertIsPresent());
-            driver.switchTo().alert();
-            return true;
-        } catch (NoAlertPresentException e) {
-            throw e;
-        }
-    }
-
-    /**
-     * method to Accept Alert if alert is present
-     */
-
-    public void acceptAlert() {
-        WebDriverWait wait = new WebDriverWait(driver, timeOut);
-        wait.until(ExpectedConditions.alertIsPresent());
-        driver.switchTo().alert().accept();
-    }
-
-    /**
-     * method to Dismiss Alert if alert is present
-     */
-
-    public void dismissAlert() {
-        WebDriverWait wait = new WebDriverWait(driver, timeOut);
-        wait.until(ExpectedConditions.alertIsPresent());
-        driver.switchTo().alert().dismiss();
-    }
-
-    /**
-     * method to get network settings
-     */
-    public void getNetworkConnection() {
-        System.out.println(((AndroidDriver) driver).getConnection());
-    }
-
-
-    /**
-     * method to set network settings
-     *
-     * @param airplaneMode pass true to activate airplane mode else false
-     * @param wifi         pass true to activate wifi mode else false
-     * @param data         pass true to activate data mode else false
-     */
-    public void setNetworkConnection(boolean airplaneMode, boolean wifi, boolean data) {
-
-        long mode = 1L;
-
-        if (wifi) {
-            mode = 2L;
-        } else if (data) {
-            mode = 4L;
-        }
-
-        ConnectionState connectionState = new ConnectionState(mode);
-        ((AndroidDriver) driver).setConnection(connectionState);
-        System.out.println("Your current connection settings are :" + ((AndroidDriver) driver).getConnection());
-    }
-
-
-    /**
-     * method to get all the context handles at particular screen
-     */
-    public void getContext() {
-        ((AppiumDriver) driver).getContextHandles();
-    }
-
-    /**
-     * method to set the context to required view.
-     *
-     * @param context view to be set
-     */
-    public void setContext(String context) {
-
-        Set<String> contextNames = ((AppiumDriver) driver).getContextHandles();
-
-        if (contextNames.contains(context)) {
-            ((AppiumDriver) driver).context(context);
-            Log.info("Context changed successfully");
-        } else {
-            Log.info(context + "not found on this page");
-        }
-
-        Log.info("Current context" + ((AppiumDriver) driver).getContext());
     }
 
     /**
@@ -339,33 +187,6 @@ public class GenericMethods {
     }
 
     /**
-     * method to open notifications on Android
-     */
-
-    public void openNotifications() {
-        ((AndroidDriver) driver).openNotifications();
-    }
-
-    /**
-     * method to launchApp
-     */
-
-    public void launchApp() {
-        ((AppiumDriver) driver).launchApp();
-    }
-
-
-    /**
-     * method to click on Element By Name
-     *
-     * @param elementByName - String element name to be clicked
-     */
-
-    public void click(String elementByName) {
-        ((AppiumDriver) driver).findElementByName(elementByName).click();
-    }
-
-    /**
      * method to scroll down on screen from java-client 6
      *
      * @param swipeTimes       number of times swipe operation should work
@@ -408,6 +229,25 @@ public class GenericMethods {
         }
     }
 
+    /**
+     * Latest working method to scroll on screen for Android and iOS
+     *
+     * @param swipeTimes       number of times swipe operation should work
+     * @param durationForSwipe time duration of a swipe operation
+     * @param startHeight      vertical point to start the scrolling
+     * @param endHeight        vertical point to end the scrolling
+     * @param width            horizontal point where the scrolling needs to take place
+     */
+    public void scrollDownWithCoordinates(int swipeTimes, int durationForSwipe, double startHeight, double endHeight, double width) {
+        Dimension dimension = driver.manage().window().getSize();
+        int startx = (int) (dimension.getWidth() * width);
+        int starty = (int) (dimension.getHeight() * startHeight);
+        int endy = (int) (dimension.getHeight() * endHeight);
 
+        for (int i = 0; i <= swipeTimes; i++) {
+            new TouchAction((AppiumDriver) driver).longPress(PointOption.point(startx, starty)).moveTo(PointOption.point(startx, endy))
+                    .waitAction(WaitOptions.waitOptions(Duration.ofMillis(durationForSwipe)))
+                    .release().perform();
+        }
+    }
 }
-

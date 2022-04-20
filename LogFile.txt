@@ -1,0 +1,214 @@
+14 Apr 2022 17:02:34  INFO logger - --------------------------------------
+14 Apr 2022 17:05:18  INFO logger - --------------------------------------
+14 Apr 2022 17:17:56  INFO logger - --------------------------------------
+14 Apr 2022 17:21:15  INFO logger - --------------------------------------
+14 Apr 2022 17:24:27  INFO logger - --------------------------------------
+14 Apr 2022 17:32:38  INFO logger - --------------------------------------
+18 Apr 2022 10:46:56  INFO logger - --------------------------------------
+18 Apr 2022 10:55:54  INFO logger - --------------------------------------
+18 Apr 2022 11:03:15  INFO logger - Appium server started successfully
+18 Apr 2022 11:03:15  INFO logger - --------------------------------------
+18 Apr 2022 11:03:15  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 11:03:15  INFO logger - MethodName :stopAppium
+18 Apr 2022 11:03:15  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 11:03:15  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 11:03:15  INFO logger - Shutting down driver
+18 Apr 2022 11:05:17  INFO logger - Appium server started successfully
+18 Apr 2022 11:05:47  INFO logger - --------------------------------------
+18 Apr 2022 11:08:13  INFO logger - Appium server started successfully
+18 Apr 2022 11:08:20  INFO logger - --------------------------------------
+18 Apr 2022 11:08:32  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 11:08:32  INFO logger - MethodName :stopAppium
+18 Apr 2022 11:08:32  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 11:08:32  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 11:08:43  INFO logger - Shutting down driver
+18 Apr 2022 11:27:19  INFO logger - Appium server started successfully
+18 Apr 2022 11:27:19  INFO logger - --------------------------------------
+18 Apr 2022 11:27:19  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 11:27:19  INFO logger - MethodName :stopAppium
+18 Apr 2022 11:27:19  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 11:27:19  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 11:27:19  INFO logger - Shutting down driver
+18 Apr 2022 11:31:03  INFO logger - Appium server started successfully
+18 Apr 2022 11:31:03  INFO logger - --------------------------------------
+18 Apr 2022 11:31:03  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 11:31:03  INFO logger - MethodName :stopAppium
+18 Apr 2022 11:31:03  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 11:31:03  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 11:31:03  INFO logger - Shutting down driver
+18 Apr 2022 11:34:49  INFO logger - Appium server started successfully
+18 Apr 2022 11:34:49  INFO logger - --------------------------------------
+18 Apr 2022 11:34:49  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 11:34:49  INFO logger - MethodName :stopAppium
+18 Apr 2022 11:34:49  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 11:34:49  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 11:34:49  INFO logger - Shutting down driver
+18 Apr 2022 11:35:28  INFO logger - Appium server started successfully
+18 Apr 2022 11:35:28  INFO logger - --------------------------------------
+18 Apr 2022 11:35:28  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 11:35:28  INFO logger - MethodName :stopAppium
+18 Apr 2022 11:35:28  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 11:35:28  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 11:35:28  INFO logger - Shutting down driver
+18 Apr 2022 11:37:27  INFO logger - Appium server started successfully
+18 Apr 2022 11:37:27  INFO logger - --------------------------------------
+18 Apr 2022 11:37:27  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 11:37:27  INFO logger - MethodName :stopAppium
+18 Apr 2022 11:37:27  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 11:37:27  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 11:37:27  INFO logger - Shutting down driver
+18 Apr 2022 11:38:03  INFO logger - Appium server started successfully
+18 Apr 2022 11:38:03  INFO logger - --------------------------------------
+18 Apr 2022 11:38:03  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 11:38:03  INFO logger - MethodName :stopAppium
+18 Apr 2022 11:38:03  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 11:38:03  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 11:38:03  INFO logger - Shutting down driver
+18 Apr 2022 12:11:24  INFO logger - Appium server started successfully
+18 Apr 2022 12:11:25  INFO logger - --------------------------------------
+18 Apr 2022 12:11:25  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 12:11:25  INFO logger - MethodName :stopAppium
+18 Apr 2022 12:11:25  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 12:11:25  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 12:11:25  INFO logger - Shutting down driver
+18 Apr 2022 12:16:03  INFO logger - Appium server started successfully
+18 Apr 2022 12:16:03  INFO logger - --------------------------------------
+18 Apr 2022 12:16:04  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 12:16:04  INFO logger - MethodName :stopAppium
+18 Apr 2022 12:16:04  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 12:16:04  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 12:16:04  INFO logger - Shutting down driver
+18 Apr 2022 12:16:54  INFO logger - Appium server started successfully
+18 Apr 2022 12:16:54  INFO logger - --------------------------------------
+18 Apr 2022 12:16:55  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 12:16:55  INFO logger - MethodName :stopAppium
+18 Apr 2022 12:16:55  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 12:16:55  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 12:16:55  INFO logger - Shutting down driver
+18 Apr 2022 12:17:29  INFO logger - Appium server started successfully
+18 Apr 2022 12:17:29  INFO logger - --------------------------------------
+18 Apr 2022 12:17:29  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 12:17:29  INFO logger - MethodName :stopAppium
+18 Apr 2022 12:17:29  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 12:17:29  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 12:17:29  INFO logger - Shutting down driver
+18 Apr 2022 12:46:32  INFO logger - Appium server started successfully
+18 Apr 2022 12:46:32  INFO logger - --------------------------------------
+18 Apr 2022 12:47:27  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 12:47:27  INFO logger - MethodName :stopAppium
+18 Apr 2022 12:47:27  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 12:47:27  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 12:47:27  INFO logger - Shutting down driver
+18 Apr 2022 12:56:48  INFO logger - Appium server started successfully
+18 Apr 2022 12:56:48  INFO logger - --------------------------------------
+18 Apr 2022 12:56:58  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 12:56:58  INFO logger - MethodName :stopAppium
+18 Apr 2022 12:56:58  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 12:56:58  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 12:56:58  INFO logger - Shutting down driver
+18 Apr 2022 13:47:31  INFO logger - Appium server started successfully
+18 Apr 2022 13:47:38  INFO logger - --------------------------------------
+18 Apr 2022 13:48:50  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 13:48:50  INFO logger - MethodName :stopAppium
+18 Apr 2022 13:48:50  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 13:48:50  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 13:48:50  INFO logger - Shutting down driver
+18 Apr 2022 14:00:05  INFO logger - Appium server started successfully
+18 Apr 2022 14:00:33  INFO logger - --------------------------------------
+18 Apr 2022 14:08:25  INFO logger - Appium server started successfully
+18 Apr 2022 14:08:31  INFO logger - --------------------------------------
+18 Apr 2022 14:10:15  INFO logger - Android driver created
+18 Apr 2022 14:28:37  INFO logger - Appium server started successfully
+18 Apr 2022 14:28:56  INFO logger - --------------------------------------
+18 Apr 2022 14:29:34  INFO logger - Android driver created
+18 Apr 2022 14:36:01  INFO logger - Appium server started successfully
+18 Apr 2022 14:36:07  INFO logger - --------------------------------------
+18 Apr 2022 14:37:14  INFO logger - Android driver created
+18 Apr 2022 14:39:17  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 14:39:17  INFO logger - MethodName :stopAppium
+18 Apr 2022 14:39:17  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 14:39:17  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 14:39:17  INFO logger - Shutting down driver
+18 Apr 2022 14:40:42  INFO logger - Appium server started successfully
+18 Apr 2022 14:41:13  INFO logger - --------------------------------------
+18 Apr 2022 14:41:44  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 14:41:44  INFO logger - MethodName :stopAppium
+18 Apr 2022 14:41:44  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 14:41:44  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 14:41:44  INFO logger - Shutting down driver
+18 Apr 2022 14:43:28  INFO logger - Appium server started successfully
+18 Apr 2022 14:43:36  INFO logger - --------------------------------------
+18 Apr 2022 14:44:22  INFO logger - Android driver created
+18 Apr 2022 14:46:07  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 14:46:07  INFO logger - MethodName :stopAppium
+18 Apr 2022 14:46:07  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 14:46:07  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 14:46:08  INFO logger - Shutting down driver
+18 Apr 2022 14:56:37  INFO logger - Appium server started successfully
+18 Apr 2022 14:56:56  INFO logger - --------------------------------------
+18 Apr 2022 14:57:36  INFO logger - Android driver created
+18 Apr 2022 14:58:55  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+18 Apr 2022 14:58:55  INFO logger - MethodName :stopAppium
+18 Apr 2022 14:58:55  INFO logger - Exception :Unable to stop appium server
+18 Apr 2022 14:58:55  INFO logger - -----------------------------------------------------------------------------------
+18 Apr 2022 14:58:56  INFO logger - Shutting down driver
+19 Apr 2022 15:17:55  INFO logger - Appium service started successfully.
+19 Apr 2022 15:17:55  INFO logger - Appium server started successfully
+19 Apr 2022 15:17:55  INFO logger - --------------------------------------
+19 Apr 2022 15:18:36  INFO logger - Android driver created
+19 Apr 2022 18:07:30  INFO logger - Appium service started successfully.
+19 Apr 2022 18:07:30  INFO logger - Appium server started successfully
+19 Apr 2022 18:07:30  INFO logger - --------------------------------------
+19 Apr 2022 18:08:19  INFO logger - Android driver created
+19 Apr 2022 18:09:06  INFO logger - Resetting app and shutting down driver
+19 Apr 2022 18:09:30  INFO logger - Appium service stopped successfully
+19 Apr 2022 18:09:30  INFO logger - Appium server stopped successfully
+19 Apr 2022 18:09:51  INFO logger - Appium service started successfully.
+19 Apr 2022 18:09:51  INFO logger - Appium server started successfully
+19 Apr 2022 18:09:51  INFO logger - --------------------------------------
+19 Apr 2022 18:12:00  INFO logger - Appium service started successfully.
+19 Apr 2022 18:12:00  INFO logger - Appium server started successfully
+19 Apr 2022 18:12:00  INFO logger - --------------------------------------
+19 Apr 2022 18:12:21  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+19 Apr 2022 18:12:21  INFO logger - MethodName :createDriver
+19 Apr 2022 18:12:21  INFO logger - Exception :Unable to create driver
+19 Apr 2022 18:12:21  INFO logger - -----------------------------------------------------------------------------------
+19 Apr 2022 18:12:21  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+19 Apr 2022 18:12:21  INFO logger - MethodName :stopRecording
+19 Apr 2022 18:12:21  INFO logger - Exception :Unable to stop screen recording
+19 Apr 2022 18:12:21  INFO logger - -----------------------------------------------------------------------------------
+19 Apr 2022 18:12:21  INFO logger - Resetting app and shutting down driver
+19 Apr 2022 18:12:21  INFO logger - Appium service stopped successfully
+19 Apr 2022 18:12:21  INFO logger - Appium server stopped successfully
+19 Apr 2022 18:12:21  INFO logger - ClassName :cucumberIntegrationTests.stepDefinitions.CreateSessionCucumber
+19 Apr 2022 18:12:21  INFO logger - MethodName :takeScreenshotOnFailure
+19 Apr 2022 18:12:21  INFO logger - Exception :Unable to take screenshot
+19 Apr 2022 18:12:21  INFO logger - -----------------------------------------------------------------------------------
+19 Apr 2022 18:12:28  INFO logger - Appium service started successfully.
+19 Apr 2022 18:12:28  INFO logger - Appium server started successfully
+19 Apr 2022 18:12:28  INFO logger - --------------------------------------
+19 Apr 2022 18:15:12  INFO logger - Appium service started successfully.
+19 Apr 2022 18:15:12  INFO logger - Appium server started successfully
+19 Apr 2022 18:15:12  INFO logger - --------------------------------------
+19 Apr 2022 18:15:51  INFO logger - Android driver created
+19 Apr 2022 18:16:35  INFO logger - Resetting app and shutting down driver
+19 Apr 2022 18:17:02  INFO logger - Appium service stopped successfully
+19 Apr 2022 18:17:02  INFO logger - Appium server stopped successfully
+19 Apr 2022 18:17:07  INFO logger - Appium service started successfully.
+19 Apr 2022 18:17:07  INFO logger - Appium server started successfully
+19 Apr 2022 18:17:07  INFO logger - --------------------------------------
+19 Apr 2022 18:17:30  INFO logger - Android driver created
+19 Apr 2022 18:17:58  INFO logger - ClassName :cucumberIntegrationTests.screens.android.AndroidLoginScreen
+19 Apr 2022 18:17:58  INFO logger - MethodName :findElement
+19 Apr 2022 18:17:58  INFO logger - Exception :Element not foundBy.xpath: //android.widget.RelativeLayout//android.widget.EditText[2]
+19 Apr 2022 18:17:58  INFO logger - -----------------------------------------------------------------------------------
+19 Apr 2022 18:18:11  INFO logger - Resetting app and shutting down driver
+19 Apr 2022 18:18:31  INFO logger - Appium service stopped successfully
+19 Apr 2022 18:18:31  INFO logger - Appium server stopped successfully
+19 Apr 2022 18:22:33  INFO logger - Appium service started successfully.
+19 Apr 2022 18:22:33  INFO logger - Appium server started successfully
+19 Apr 2022 18:22:33  INFO logger - --------------------------------------
+19 Apr 2022 18:23:05  INFO logger - Android driver created
+19 Apr 2022 18:23:53  INFO logger - Resetting app and shutting down driver
+19 Apr 2022 18:24:16  INFO logger - Appium service stopped successfully
+19 Apr 2022 18:24:16  INFO logger - Appium server stopped successfully
