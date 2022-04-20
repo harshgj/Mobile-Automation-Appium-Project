@@ -5,3 +5,5 @@ This framework is basically designed to run mobile automation tests for 3 differ
 We have put in the comments everywhere in the framework where ever required. So in that way it is self explanatory. Just clone it and you are good to go for designing your scripts on all 3 platforms.
 
 Soon we will be also integrating the Azure yaml file with this framework which is required to run your tests on Azure Pipelines.
+
+Please leave a **Star** if you like it.
